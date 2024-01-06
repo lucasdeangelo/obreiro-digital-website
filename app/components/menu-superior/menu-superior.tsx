@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function MenuSuperior() {
   return (
     <main>
-      <div className='bg-azul flex py-2 px-14'>
+      <div className='bg-azul flex py-2 px-14 sticky'>
         <div>
           <Image src={logo} width={200} height={200} alt=''/>
         </div>
@@ -15,7 +15,7 @@ export default function MenuSuperior() {
           <Link href={''} className='ml-[8dvh] h-8'>Missão</Link>
           <Link href={''} className='ml-[8dvh] h-8'>Recursos</Link>
           <Link href={''} className='ml-[8dvh] h-8'>Planos</Link>
-          <div className='bg-white text-azul h-[4vh] w-[15vh] flex text-center justify-center rounded-lg ml-[8dvh] text2 text-xl'>
+          <div className='bg-white hover:bg-slate-300 text-azul h-[4vh] w-[15vh] flex text-center justify-center rounded-lg ml-[8dvh] text2 text-xl'>
             <Link href={''} className='mt-1'>Assine Já</Link>            
           </div>
         </div>
