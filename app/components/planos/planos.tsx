@@ -6,10 +6,10 @@ import templo from '@/public/icons/templo.svg'
 import seta from '@/public/icons/seta.svg'
 import setaWhite from '@/public/icons/seta-white.svg'
 
-export default function Planos() {
+const Planos: React.FC = () => {
   return (
-    <main>
-        <div className='py-[10vh] flex flex-col justify-center'>
+    <main id="planos">
+        <div className='py-[20vh] flex flex-col justify-center'>
           <h2 className='text1 text-black text-5xl text-center mb-12'>Planos de Assinatura</h2>
 
           <div className='flex justify-center'>
@@ -107,3 +107,5 @@ export default function Planos() {
     </main>
   )
 }
+
+export default Planos;

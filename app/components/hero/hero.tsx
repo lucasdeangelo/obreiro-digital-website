@@ -2,10 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import mockupHero from '@/public/images/mockup_hero.png'
 
-export default function Hero() {
+const Hero: React.FC = () => {
   return (
-    <main>
-        <div className='flex bg-azul px-[21vh] py-[21.7vh]'>
+    <main id="hero">
+        <div className='flex bg-azul px-[21vh] py-[26.5vh]'>
           <div className='mt-8'>
             <h1 className='text1 text-white text-5xl leading-tight'>Da Secretaria ao Púlpito:<br/>Simplifique com o<br/>Obreiro Digital!</h1>
             <p className='text2 text-white text-2xl mt-2'>Gerencie membros, eventos,<br/>estoque, visitantes e finanças<br/>em um só lugar.</p>
@@ -17,3 +17,5 @@ export default function Hero() {
     </main>
   )
 }
+
+export default Hero;

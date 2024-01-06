@@ -2,10 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import mockupRecursos from '@/public/images/mockup_recursos.png'
 
-export default function Recursos() {
+const Recursos: React.FC = () => {
   return (
-    <main>
-        <div className='bg-azul px-[25vh] py-[8vh]'>
+    <main id="recursos">
+        <div className='bg-azul px-[25vh] py-[18vh]'>
             <div>
                 <h2 className='text1 text-white text-5xl text-center'>Recursos</h2>
                 <p className='text2 text-white text-2xl text-center mt-3'>Principais recursos e funcionalidades<br/>do Obreiro Digital:</p>
@@ -47,3 +47,5 @@ export default function Recursos() {
     </main>
   )
 }
+
+export default Recursos;

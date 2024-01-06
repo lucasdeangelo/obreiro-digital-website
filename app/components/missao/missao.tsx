@@ -2,10 +2,10 @@ import React from 'react'
 import Image from 'next/image'
 import check from '@/public/icons/check.svg'
 
-export default function Missao() {
+const Missao: React.FC = () => {
   return (
-    <main>
-        <div className='flex px-[21vh] py-[10vh]'>
+    <main id="missao">
+        <div className='flex px-[21vh] py-[20vh]'>
             <div className='mt-[10vh]'>
                 <h2 className='text1 text-black text-5xl'>Nossa Missão</h2>
                 
@@ -46,3 +46,5 @@ export default function Missao() {
     </main>
   )
 }
+
+export default Missao;
