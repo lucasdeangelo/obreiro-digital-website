@@ -15,8 +15,8 @@ export default function MenuSuperior() {
           <Link href={''} className='ml-[8dvh] h-8'>Missão</Link>
           <Link href={''} className='ml-[8dvh] h-8'>Recursos</Link>
           <Link href={''} className='ml-[8dvh] h-8'>Planos</Link>
-          <div className='bg-white hover:bg-slate-300 text-azul h-[4vh] w-[15vh] flex text-center justify-center rounded-lg ml-[8dvh] text2 text-xl'>
-            <Link href={''} className='mt-1'>Assine Já</Link>            
+          <div className='bg-white hover:bg-slate-200 text-azul h-[4vh] w-[17vh] flex text-center justify-center rounded-lg ml-[8dvh] text2 text-xl'>
+            <Link href={''} className='mt-1'>Assine Agora</Link>            
           </div>
         </div>
       </div>
