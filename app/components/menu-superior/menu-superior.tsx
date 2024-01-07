@@ -35,7 +35,7 @@ const MenuSuperior: React.FC = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className='bg-azul py-2 px-4 md:fixed md:top-0 md:z-50'>
+      <div className='bg-azul py-2 px-4 md:fixed md:top-0 md:z-50 md:hidden'>
         <div className='flex justify-between items-center'>
           <ScrollLink to="hero" smooth={true} className='cursor-pointer'> 
             <Image src={logotipo} width={60} height={60} alt=''/>
